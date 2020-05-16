@@ -2,17 +2,17 @@
 <html>
 <head>
 	<link rel="stylesheet"  href="css/main.css"></link>
-	<title>First JavaScript Page</title>
+	<script src="js/app.js"></script>
+	<title>Second JavaScript Page</title>
 
 
 </head>
 <body>
-	<h1>Modify the DOM</h1>
-	<button onclick="document.getElementById('stuff').innerHTML = 'clicked first button';">First</button>
-	<button onclick="document.getElementById('stuff').innerHTML = 'clicked second button';">second</button>
-	<p>This code shouldn't change.</p>
-	<p id="stuff">This will change.</p>
-	<p>This shouldn't change either.</p>
+	<h1>Changing Styles</h1>
+	
+    <button type="button" onclick="openMe()">open!</button>
+	<button type="button" onclick="closeMe()">close!</button>
+	<p id="demo">Extra details...You can open and close this paragraph using the buttons above.</p>
 
 </body>
 </html>

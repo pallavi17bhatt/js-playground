@@ -1,0 +1,39 @@
+body{
+		margin: 2%;
+		border: 1px solid black;
+		background-color: #b3b3b3;
+}
+.message{
+    line-height:100px;
+    text-align:center;
+	width: 575px;
+    height: 100px;
+	
+	margin:0 auto;
+    margin-bottom:10px;
+    
+    font-size: 150%;
+    	border:5px solid black;
+
+}
+
+.show{
+  background-color: #ffffff;
+/*   font-size:120%; */
+   border:5px solid #00ff00;
+}
+
+.hide{
+	background-color: #8e68ff;
+	border:5px solid black;
+}
+
+
+.preview{
+		width:10%;
+		margin-left:17%;
+    border: 10px solid black;
+}
+img{
+		width:95%;
+}

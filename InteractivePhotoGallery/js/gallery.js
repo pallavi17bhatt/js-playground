@@ -1,7 +1,6 @@
 /*Name this external file gallery.js*/
-
 function upDate(previewPic){
- /* In this function you should 
+  /*In this function you should 
     1) change the url for the background image of the div with the id = "image" 
     to the source file of the preview image
     
@@ -9,9 +8,9 @@ function upDate(previewPic){
     to the alt text of the preview image 
     */
 
-    x=document.getElementById('image');
-    x.innerHTML=previewPic.alt;
-    x.style.backgroundImage="url('" + previewPic.src + "')";
+    var image=document.getElementById('image');
+    image.innerHTML=previewPic.alt;
+    image.style.backgroundImage="url('" + previewPic.src + "')";
   
 	}
 
@@ -24,8 +23,12 @@ function upDate(previewPic){
     back to the original text.  You can use the html code to see what that original text was
     */
 
-    x=document.getElementById('image');
-    x.innerHTML="Hover over an image below to display here."
-    x.style.backgroundImage="url('')";
+    var image=document.getElementById('image');
+    image.innerHTML="Hover over an image below to display here."
+    image.style.backgroundImage="url('')";
 		
 	}
+
+
+        
+    
